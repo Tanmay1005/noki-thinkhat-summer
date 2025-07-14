@@ -1,0 +1,59 @@
+.preformance-icon-size {
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.strengths-icon {
+    background-image: url("../assets//strength.svg");
+}
+
+.areas-of-improvement-icon {
+    background-image: url("../assets/areas-of-improvement.svg");
+}
+
+.actionable-suggestions-icon {
+    background-image: url("../assets/actionable-suggestions.svg");
+    width: 28px;
+    height: 30px;
+}
+
+.right-tik-icon {
+    background-image: url("../assets/right-tik.svg");
+    width: 20px;
+    height: 20px;
+}
+
+.cancel-tik-icon {
+    background-image: url("../assets/cancel-tik.svg");
+    width: 20px;
+    height: 20px;
+}
+
+.right-tik-icon-large {
+    background-image: url("../assets/right-tik.svg");
+    width: 28px;
+    height: 28px;
+}
+
+.strengths-icon,
+.areas-of-improvement-icon,
+.actionable-suggestions-icon,
+.right-tik-icon,
+.cancel-tik-icon,
+.right-tik-icon-large {
+    @extend .preformance-icon-size
+}
+
+.strengths-card-bg {
+    background-color: rgba(230, 254, 255, 1);
+}
+
+.areas-for-improvement-card-bg {
+    background-color: rgba(255, 247, 232, 1);
+}
+
+.actionable-suggestions-card-bg {
+    background-color: rgba(255, 239, 249, 1);
+}

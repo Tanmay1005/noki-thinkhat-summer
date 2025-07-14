@@ -1,0 +1,18 @@
+{
+	"version": "0.2",
+	"ignorePaths": [],
+	"dictionaryDefinitions": [],
+	"dictionaries": [],
+	"words": [
+		"biomejs",
+		"enliv",
+		"noki",
+		"OSCE",
+		"fhir",
+		"hasura",
+		"cdss",
+		"formd"
+	],
+	"ignoreWords": [],
+	"import": []
+}

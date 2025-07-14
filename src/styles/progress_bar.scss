@@ -1,0 +1,22 @@
+.progress-bar {
+  position: relative;
+  width: 80%; 
+  height: 10px;
+  background-color: rgba(88, 64, 186, 0.12);
+  border-radius: 10px;
+  overflow: hidden; 
+}
+
+.progress-bar-inner {
+  height: 100%;
+  background: linear-gradient(90deg, #3fcb00 0%, #adf65b 100%);
+  transition: width 0.3s ease; 
+}
+
+.progress-text {
+  text-align: center;
+  line-height: 0.88rem; 
+  color: rgba(88, 64, 186, 0.9); 
+  font-weight: 600; 
+  font-size: 0.75rem; 
+}

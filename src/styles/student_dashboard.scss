@@ -1,0 +1,666 @@
+.icon-calculation {
+  width: 3.5rem;
+  height: 4rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.heart-icon {
+  background-image: url("../assets/heart.svg");
+}
+
+.kidney-icon {
+  background-image: url("../assets/kidney.svg");
+}
+
+.circuit-icon {
+  background-image: url("../assets/circuit.svg");
+}
+
+// Case Types
+.adult-reconstructive-orthopedics-icon {
+  background-image: url("../assets/case_images/AdultReconstructiveOrthopedics.svg");
+}
+
+.allergy-icon {
+  background-image: url("../assets/case_images/Allergy.svg");
+}
+
+.allergy-immunology-icon {
+  background-image: url("../assets/case_images/AllergyImmunology.svg");
+}
+
+.anesthesiology-icon {
+  background-image: url("../assets/case_images/Anesthesiology.svg");
+}
+
+.cardio-vascular-surgery-icon {
+  background-image: url("../assets/case_images/CardioVascularSurgery.svg");
+}
+
+.cardiology-icon {
+  background-image: url("../assets/case_images/Cardiology.svg");
+}
+
+.critical-care-icon {
+  background-image: url("../assets/case_images/CriticalCare.svg");
+}
+
+.dentistry-icon {
+  background-image: url("../assets/case_images/Dentistry.svg");
+}
+
+.dermatology-icon {
+  background-image: url("../assets/case_images/Dermatology.svg");
+}
+
+.diagnostic-radiology-icon {
+  background-image: url("../assets/case_images/DiagnosticRadiology.svg");
+}
+
+.emergency-medicine-icon {
+  background-image: url("../assets/case_images/EmergencyMedicine.svg");
+}
+
+.endodontist-icon {
+  background-image: url("../assets/case_images/Endodontist.svg");
+}
+
+.enocrionolgy-diabetes-metabolism-icon {
+  background-image: url("../assets/case_images/EnocrionolgyDiabetesMetabolism.svg");
+}
+
+.family-practice-icon {
+  background-image: url("../assets/case_images/FamilyPractice.svg");
+}
+
+.foot-and-ankle-orthopedics-icon {
+  background-image: url("../assets/case_images/FootAndAnkleOrthopedics.svg");
+}
+
+.gastroenterology-icon {
+  background-image: url("../assets/case_images/Gastroenterology.svg");
+}
+
+.general-dentistry-icon {
+  background-image: url("../assets/case_images/GeneralDentistry.svg");
+}
+
+.general-practice-icon {
+  background-image: url("../assets/case_images/GeneralPractice.svg");
+}
+
+.generic-specialty-icon {
+  background-image: url("../assets/case_images/generic-specialty.svg");
+}
+
+.geriatric-medicine-icon {
+  background-image: url("../assets/case_images/GeriatricMedicine.svg");
+}
+
+.gynecologic-oncology-icon {
+  background-image: url("../assets/case_images/GynecologicOncology.svg");
+}
+
+.gynecology-icon {
+  background-image: url("../assets/case_images/Gynecology.svg");
+}
+
+.hematology-hematologyoncology-icon {
+  background-image: url("../assets/case_images/HematologyHematologyoncology.svg");
+}
+
+.hospitalist-icon {
+  background-image: url("../assets/case_images/Hospitalist.svg");
+}
+
+.immunology-icon {
+  background-image: url("../assets/case_images/Immunology.svg");
+}
+
+.infectious-diseases-icon {
+  background-image: url("../assets/case_images/InfectiousDiseases.svg");
+}
+
+.infertility-icon {
+  background-image: url("../assets/case_images/Infertility.svg");
+}
+
+.internal-medicine-icon {
+  background-image: url("../assets/case_images/InternalMedicine.svg");
+}
+
+.interventional-cardiology-icon {
+  background-image: url("../assets/case_images/InterventionalCardiology.svg");
+}
+
+.medical-oncology-icon {
+  background-image: url("../assets/case_images/MedicalOncology.svg");
+}
+
+.neonatology-icon {
+  background-image: url("../assets/case_images/Neonatology.svg");
+}
+
+.nephrology-icon {
+  background-image: url("../assets/case_images/Nephrology.svg");
+}
+
+.neurological-surgery-icon {
+  background-image: url("../assets/case_images/NeurologicalSurgery.svg");
+}
+
+.neurology-icon {
+  background-image: url("../assets/case_images/Neurology.svg");
+}
+
+.nuclear-medicine-icon {
+  background-image: url("../assets/case_images/NuclearMedicine.svg");
+}
+
+.nutrition-icon {
+  background-image: url("../assets/case_images/Nutrition.svg");
+}
+
+.obsetetrics-icon {
+  background-image: url("../assets/case_images/Obsetetrics.svg");
+}
+
+.obstretics-gynecology-icon {
+  background-image: url("../assets/case_images/ObstretricsGynecology.svg");
+}
+
+.occupational-medicine-icon {
+  background-image: url("../assets/case_images/OccupationalMedicine.svg");
+}
+
+.oncology-icon {
+  background-image: url("../assets/case_images/Oncology.svg");
+}
+
+.opthamology-icon {
+  background-image: url("../assets/case_images/Opthamology.svg");
+}
+
+.optometrist-icon {
+  background-image: url("../assets/case_images/Optometrist.svg");
+}
+
+.oral-and-maxillofacial-pathology-icon {
+  background-image: url("../assets/case_images/OralAndMaxillofacialPathology.svg");
+}
+
+.oral-surgery-icon {
+  background-image: url("../assets/case_images/OralSurgery.svg");
+}
+
+.orthodontics-icon {
+  background-image: url("../assets/case_images/Orthodontics.svg");
+}
+
+.orthopedics-icon {
+  background-image: url("../assets/case_images/Orthopedics.svg");
+}
+
+.otolaryngology-icon {
+  background-image: url("../assets/case_images/Otolaryngology.svg");
+}
+
+.pain-medicine-icon {
+  background-image: url("../assets/case_images/PainMedicine.svg");
+}
+
+.pathology-icon {
+  background-image: url("../assets/case_images/Pathology.svg");
+}
+
+.pediatric-cardiology-icon {
+  background-image: url("../assets/case_images/PediatricCardiology.svg");
+}
+
+.pediatric-dermatology-orthopedics-icon {
+  background-image: url("../assets/case_images/PediatricDermatologyOrthopedics.svg");
+}
+
+.pediatrics-icon {
+  background-image: url("../assets/case_images/Pediatrics.svg");
+}
+
+.pedodontics-icon {
+  background-image: url("../assets/case_images/Pedodontics.svg");
+}
+
+.pedodontist-icon {
+  background-image: url("../assets/case_images/Pedodontist.svg");
+}
+
+.physical-medicine-and-rehabilation-icon {
+  background-image: url("../assets/case_images/PhysicalMedicineAndRehabilation.svg");
+}
+
+.plastic-surgery-icon {
+  background-image: url("../assets/case_images/PlasticSurgery.svg");
+}
+
+.podiotry-icon {
+  background-image: url("../assets/case_images/Podiotry.svg");
+}
+
+.prosthodontist-icon {
+  background-image: url("../assets/case_images/Prosthodontist.svg");
+}
+
+.psychiatry-icon {
+  background-image: url("../assets/case_images/Psychiatry.svg");
+}
+
+.pulmonary-medicine-icon {
+  background-image: url("../assets/case_images/PulmonaryMedicine.svg");
+}
+
+.radiation-oncology-icon {
+  background-image: url("../assets/case_images/RadiationOncology.svg");
+}
+
+.radiology-icon {
+  background-image: url("../assets/case_images/Radiology.svg");
+}
+
+.reproductive-enocrinology-icon {
+  background-image: url("../assets/case_images/ReproductiveEnocrinology.svg");
+}
+
+.rheumatology-icon {
+  background-image: url("../assets/case_images/Rheumatology.svg");
+}
+
+.spine-surgery-icon {
+  background-image: url("../assets/case_images/SpineSurgery.svg");
+}
+
+.sports-medicine-icon {
+  background-image: url("../assets/case_images/SportsMedicine.svg");
+}
+
+.surgery-general-icon {
+  background-image: url("../assets/case_images/SurgeryGeneral.svg");
+}
+
+.surgical-oncology-icon {
+  background-image: url("../assets/case_images/SurgicalOncology.svg");
+}
+
+.urology-icon {
+  background-image: url("../assets/case_images/Urology.svg");
+}
+
+.vascular-surgery-icon {
+  background-image: url("../assets/case_images/VascularSurgery.svg");
+}
+
+// Station Types
+.communication-skills-icon {
+  background-image: url("../assets/station_images/Communication Skills.svg");
+}
+
+.counseling-icon {
+  background-image: url("../assets/station_images/Counseling.svg");
+}
+
+.diagnostic-interpretation-icon {
+  background-image: url("../assets/station_images/Diagnostic Interpretation.svg");
+}
+
+.emergency-response-icon {
+  background-image: url("../assets/station_images/Emergency Response.svg");
+}
+
+.ethical-decision-making-icon {
+  background-image: url("../assets/station_images/Ethical Decision Making.svg");
+}
+
+.history-taking-icon {
+  background-image: url("../assets/station_images/History Taking.svg");
+}
+
+.interprofessional-collaboration-icon {
+  background-image: url("../assets/station_images/Interprofessional Collaboration.svg");
+}
+
+.management-planning-icon {
+  background-image: url("../assets/station_images/Management Planning.svg");
+}
+
+.physical-examination-icon {
+  background-image: url("../assets/station_images/Physical Examination.svg");
+}
+
+.procedural-skills-icon {
+  background-image: url("../assets/station_images/Procedural Skills.svg");
+}
+
+.default-station-icon {
+  background-image: url("../assets/Case_tabs_image/default.svg")
+}
+
+.heart-icon,
+.kidney-icon,
+.adult-reconstructive-orthopedics-icon,
+.allergy-icon,
+.allergy-immunology-icon,
+.anesthesiology-icon,
+.cardio-vascular-surgery-icon,
+.cardiology-icon,
+.critical-care-icon,
+.dentistry-icon,
+.dermatology-icon,
+.diagnostic-radiology-icon,
+.emergency-medicine-icon,
+.endodontist-icon,
+.enocrionolgy-diabetes-metabolism-icon,
+.family-practice-icon,
+.foot-and-ankle-orthopedics-icon,
+.gastroenterology-icon,
+.general-dentistry-icon,
+.general-practice-icon,
+.generic-specialty-icon,
+.geriatric-medicine-icon,
+.gynecologic-oncology-icon,
+.gynecology-icon,
+.hematology-hematologyoncology-icon,
+.hospitalist-icon,
+.immunology-icon,
+.infectious-diseases-icon,
+.infertility-icon,
+.internal-medicine-icon,
+.interventional-cardiology-icon,
+.medical-oncology-icon,
+.neonatology-icon,
+.nephrology-icon,
+.neurological-surgery-icon,
+.neurology-icon,
+.nuclear-medicine-icon,
+.nutrition-icon,
+.obsetetrics-icon,
+.obstretics-gynecology-icon,
+.occupational-medicine-icon,
+.oncology-icon,
+.opthamology-icon,
+.optometrist-icon,
+.oral-and-maxillofacial-pathology-icon,
+.oral-surgery-icon,
+.orthodontics-icon,
+.orthopedics-icon,
+.otolaryngology-icon,
+.pain-medicine-icon,
+.pathology-icon,
+.pediatric-cardiology-icon,
+.pediatric-dermatology-orthopedics-icon,
+.pediatrics-icon,
+.pedodontics-icon,
+.pedodontist-icon,
+.physical-medicine-and-rehabilation-icon,
+.plastic-surgery-icon,
+.podiotry-icon,
+.prosthodontist-icon,
+.psychiatry-icon,
+.pulmonary-medicine-icon,
+.radiation-oncology-icon,
+.radiology-icon,
+.reproductive-enocrinology-icon,
+.rheumatology-icon,
+.spine-surgery-icon,
+.sports-medicine-icon,
+.surgery-general-icon,
+.surgical-oncology-icon,
+.urology-icon,
+.vascular-surgery-icon,
+.communication-skills-icon,
+.counseling-icon,
+.diagnostic-interpretation-icon,
+.emergency-response-icon,
+.ethical-decision-making-icon,
+.history-taking-icon,
+.interprofessional-collaboration-icon,
+.management-planning-icon,
+.physical-examination-icon,
+.procedural-skills-icon,
+.circuit-icon,
+.generic-specialty-icon {
+  @extend .icon-calculation;
+}
+
+.icon-osce {
+  background-image: url("../assets/osce.svg");
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.green-play-icon {
+  background-image: url("../assets/green-play.svg");
+  width: 3rem;
+  height: 3rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slider-container {
+  width: 91%;
+}
+
+.card-container {
+  margin: 2px 10px;
+  box-shadow: 0px 0px 6px 2px #6969691A !important;
+  border: none;
+  border-radius: 24px !important;
+}
+
+.card-shadow {
+  box-shadow: 0px 0px 6px 2px #6969691a !important;
+}
+
+.card-img {
+  height: 5rem;
+  width: 4rem;
+}
+
+.slick-next::before,
+.slick-prev::before {
+  color: #5840ba !important;
+  content: none !important;
+}
+
+.slick-next,
+.slick-prev {
+  border-radius: 50%;
+  border: 1px solid rgba(88, 64, 186, 1) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    color: rgba(88, 64, 186, 1);
+  }
+}
+
+.slick-prev {
+  left: -20px !important;
+}
+
+.slick-next {
+  right: -20px !important;
+}
+
+.slick-disabled {
+  opacity: 0.5;
+}
+
+.carousel-slide {
+  height: 175px !important;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learn-in-flash-icon {
+  background-image: url("../assets/flash.svg");
+  width: 2rem;
+  height: 1.5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.take-quiz-icon {
+  background-image: url("../assets/take-quiz.svg");
+  width: 2rem;
+  height: 1.5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hurray-icon {
+  background-image: url("../assets/hurray.svg");
+  width: 2.5rem;
+  height: 2.3rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.flash-card-img {
+  width: 10rem;
+  height: 10rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.flash-card-icon-1 {
+  background-image: url("../assets/flashcards/flash-card-1.svg");
+
+}
+
+.flash-card-icon-2 {
+  background-image: url("../assets/flashcards/flash-card-2.svg");
+
+}
+
+.flash-card-icon-3 {
+  background-image: url("../assets/flashcards/flash-card-3.svg");
+}
+
+.flash-card-icon-4 {
+  background-image: url("../assets/flashcards/flash-card-4.svg");
+}
+
+.flash-card-icon-5 {
+  background-image: url("../assets/flashcards/flash-card-5.svg");
+}
+
+.flash-card-icon-6 {
+  background-image: url("../assets/flashcards/flash-card-6.svg");
+}
+
+.flash-card-icon-7 {
+  background-image: url("../assets/flashcards/flash-card-7.svg");
+}
+
+.flash-card-icon-8 {
+  background-image: url("../assets/flashcards/flash-card-8.svg");
+}
+
+.flash-card-icon-9 {
+  background-image: url("../assets/flashcards/flash-card-9.svg");
+}
+
+.flash-card-icon-10 {
+  background-image: url("../assets/flashcards/flash-card-10.svg");
+}
+
+.flash-card-icon-11 {
+  background-image: url("../assets/flashcards/flash-card-11.svg");
+}
+
+.flash-card-icon-12 {
+  background-image: url("../assets/flashcards/flash-card-12.svg");
+}
+
+.flash-card-icon-13 {
+  background-image: url("../assets/flashcards/flash-card-13.svg");
+}
+
+.flash-card-icon-14 {
+  background-image: url("../assets/flashcards/flash-card-14.svg");
+}
+
+.flash-card-icon-15 {
+  background-image: url("../assets/flashcards/flash-card-15.svg");
+}
+
+.flash-card-icon-16 {
+  background-image: url("../assets/flashcards/flash-card-16.svg");
+}
+
+.flash-card-icon-1,
+.flash-card-icon-2,
+.flash-card-icon-3,
+.flash-card-icon-4,
+.flash-card-icon-5,
+.flash-card-icon-6,
+.flash-card-icon-7,
+.flash-card-icon-8,
+.flash-card-icon-9,
+.flash-card-icon-10,
+.flash-card-icon-11,
+.flash-card-icon-12,
+.flash-card-icon-13,
+.flash-card-icon-14,
+.flash-card-icon-15,
+.flash-card-icon-16 {
+  @extend .flash-card-img
+}
+
+.overlay {
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.video-container:hover .overlay {
+  opacity: 1;
+}
+
+.recent-practices-card {
+  width: 48%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.text-top {
+  order: -1;
+}
+
+.text-bottom {
+  order: 1;
+}
+
+.text-middle {
+  order: 0;
+}
+
+.text-last {
+  order: 999;
+}
+
+.hey-noki-banner {
+  background: #F9F8FE;
+  border-radius: 24px;
+}

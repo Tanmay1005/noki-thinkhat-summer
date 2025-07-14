@@ -1,0 +1,22 @@
+[
+	{
+		"relation": ["delegate_permission/common.handle_all_urls"],
+		"target": {
+			"namespace": "android_app",
+			"package_name": "com.thinkhat.formD",
+			"sha256_cert_fingerprints": [
+				"70:83:4D:52:18:E6:00:5D:66:9B:EC:D1:3B:67:64:2B:47:99:81:D3:D4:71:69:E6:DA:BF:F4:63:AE:3D:D9:8C"
+			]
+		}
+	},
+	{
+		"relation": ["delegate_permission/common.handle_all_urls"],
+		"target": {
+			"namespace": "android_app",
+			"package_name": "com.thinkhat.formD",
+			"sha256_cert_fingerprints": [
+				"A1:B2:7D:83:AA:77:DC:ED:73:18:3C:E9:90:3C:45:0F:FE:4C:E0:D4:4B:16:6E:42:FB:21:68:38:C9:DB:7F:7E"
+			]
+		}
+	}
+]

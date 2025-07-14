@@ -1,0 +1,34 @@
+@keyframes moveClouds {
+  0% {
+    left: 0%;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
+
+
+.cloud-1-icon-login {
+  background-image: url('../../assets/cloudIcon.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  background-position: center;
+}
+
+.cloud-2-icon-login {
+  background-image: url('../../assets/cloud2Icon.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  background-position: center;
+}
+
+.cloud-3-icon-login {
+  background-image: url('../../assets/cloud3Icon.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  background-position: center;
+}

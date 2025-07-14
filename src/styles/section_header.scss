@@ -1,0 +1,42 @@
+// custom css for reusable section header
+.header {
+  font-size: 1.125rem;
+  line-height: 1.575rem;
+  font-weight: 700;
+}
+.icon-container {
+  width: 3rem;
+  height: 3rem;
+  background: #5840ba;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.icon{
+    width: 60%;
+}
+.osce-header {
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+}
+
+.osce-img, .noki-interact-img {
+  background: #bcb2e1;
+}
+
+.noki-interact-img{
+  height:32px;
+  width:32px;
+}
+.osce-station-header, .osce-case-header, .osce-circuit-header{
+  font-size:1.125rem;
+  line-height: 1.53rem;
+  font-weight:600;
+}
+
+.noki-interact-header{
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.36rem;
+}

@@ -1,0 +1,156 @@
+.orbit-rotation-animate {
+    animation: orbit-rotation-animation linear infinite;
+    animation-duration: 10s;
+}
+
+.orbit-icon-rotation-animate {
+    animation: orbit-icon-rotation-animation linear infinite;
+    animation-duration: 10s;
+}
+
+.big .orbit-icon-rotation-animate {
+    animation: orbit-icon-rotation-animation-big linear infinite;
+    animation-duration: 10s;
+}
+
+.orbit-border {
+    border: 1px solid #bcbcbc62;
+}
+
+.big-orbit {
+    width: 110vh !important;
+    height: 110vh !important;
+}
+
+.orbit-container {
+    top: 40%
+}
+
+.icon-size {
+    width: 3rem;
+    height: 3rem;
+}
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+    .big-orbit {
+        width: 100vw !important;
+        height: 100vw !important;
+    }
+
+    .orbit-container {
+        top: 60%
+    }
+
+    .icon-size {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+.medium-orbit {
+    width: 80%;
+    height: 80%;
+}
+
+.small-orbit {
+    width: 60%;
+    height: 60%;
+}
+
+@keyframes orbit-icon-rotation-animation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes orbit-icon-rotation-animation-big {
+    from {
+        transform: rotate(-45deg);
+    }
+
+    to {
+        transform: rotate(-405deg);
+    }
+}
+
+@keyframes orbit-rotation-animation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.circle {
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.orbit-icon-1 {
+    background-image: url('../../assets/loginIcons/orbit-icon-1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(-45deg);
+    background-size: cover;
+}
+
+.orbit-icon-1-1 {
+    background-image: url('../../assets/loginIcons/orbit-icon-1.1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(-45deg);
+    background-size: cover;
+}
+
+.orbit-icon-1-2 {
+    background-image: url('../../assets/loginIcons/orbit-icon-1.2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(-45deg);
+    background-size: cover;
+}
+
+.orbit-icon-2 {
+    background-image: url('../../assets/loginIcons/orbit-icon-2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(-45deg);
+    background-size: cover;
+}
+
+.orbit-icon-3 {
+    background-image: url('../../assets/loginIcons/orbit-icon-3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.orbit-icon-4 {
+    background-image: url('../../assets/loginIcons/orbit-icon-4.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.orbit-icon-5 {
+    background-image: url('../../assets/loginIcons/orbit-icon-5.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.orbit-icon-6 {
+    background-image: url('../../assets/loginIcons/orbit-icon-6.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

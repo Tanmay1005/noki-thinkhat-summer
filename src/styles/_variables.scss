@@ -1,0 +1,25 @@
+// Custom colors
+$primary-color: #1976d2;
+$secondary-color: #dc004e;
+$text-color: #333;
+$background-color: #f5f5f5;
+
+// Bootstrap overrides
+$theme-colors: (
+  "primary": $primary-color,
+  "secondary": $secondary-color
+);
+
+// You can add more variables here as needed
+$border-radius: 0.25rem;
+$transition-base: all 0.2s ease-in-out;
+
+// Responsive breakpoints (if you want to customize Bootstrap's defaults)
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);

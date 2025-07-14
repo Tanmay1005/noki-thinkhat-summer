@@ -1,0 +1,286 @@
+.editableJson {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 1rem;
+    color: #111827;
+}
+
+.section {
+    position: relative;
+    padding-left: 1.5rem;
+    margin: 0.25rem 0;
+}
+
+.section::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #e5e7eb;
+    opacity: 0.5;
+}
+
+.section:hover::before {
+    background: #d1d5db;
+    opacity: 1;
+}
+
+.heading {
+    font-weight: 600;
+    color: #1f2937;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.heading:hover {
+    background: #f3f4f6;
+}
+
+.heading:focus {
+    background: #f3f4f6;
+    outline: none;
+}
+
+.value {
+    color: #374151;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+}
+
+.value:hover {
+    background: #f3f4f6;
+}
+
+.value:focus {
+    outline: none;
+    background: #f3f4f6;
+}
+
+.controls {
+    opacity: 0;
+    transition: opacity 0.2s;
+    display: inline-flex;
+    gap: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.heading:hover .controls,
+.section:hover>.controls {
+    opacity: 1;
+}
+
+.deleteButton {
+    padding: 0.15rem 0.3rem;
+    font-size: 12px;
+    color: #6b7280;
+    background: transparent;
+    border: 1px solid #d1d5db;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.deleteButton:hover {
+    background: #fef2f2;
+    color: #e53e3e;
+}
+
+.addButton {
+    padding: 0.15rem 0.3rem;
+    font-size: 12px;
+    color: #059669;
+    background: transparent;
+    border: 1px solid #d1d5db;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.addButton:hover {
+    background: #dcfce7;
+    border-color: #dcfce7;
+}
+
+.listItem {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0.25rem 0;
+}
+
+.listContent {
+    flex: 1;
+    min-width: 0;
+}
+
+.listControls {
+    opacity: 0;
+    transition: opacity 0.2s;
+    padding-top: 0.25rem;
+}
+
+.listItem:hover .listControls {
+    opacity: 1;
+}
+
+.collapseToggle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #6b7280;
+    font-weight: bold;
+    user-select: none;
+}
+
+.collapseToggle:hover {
+    color: #374151;
+    background: #e5e7eb;
+    border-radius: 3px;
+}
+
+.inlineEntry {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.keyName {
+    color: #1f2937;
+    min-width: 50px;
+}
+
+.inlineValue {
+    color: #374151;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.inlineValue:hover {
+    background: #f3f4f6;
+}
+
+.inlineValue:focus {
+    outline: none;
+    background: #f3f4f6;
+}
+
+.noData {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.actionButtons {
+    // position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.actionButton {
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.addComment {
+    background-color: #de9751;
+    color: white;
+}
+
+.saveDraft {
+    background-color: #2196f3;
+    color: white;
+}
+
+.rubricsScore {
+    background-color: #af53f1;
+    color: white;
+}
+
+.finalize {
+    background-color: #4caf50;
+    color: white;
+}
+
+.caseDetails {
+    background-color: #4c72af;
+    color: white;
+}
+
+.transcript {
+    background-color: #54ddcb;
+    color: white;
+}
+
+.commentsDialog {
+    padding: 16px;
+}
+
+.commentsTextarea {
+    width: 100%;
+    min-width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.dialogActions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.cancelButton,
+.saveButton {
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.cancelButton {
+    background-color: #f0f0f0;
+}
+
+.saveButton {
+    background-color: #007bff;
+    color: white;
+}
+
+.saveButton:disabled,
+.addButton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.inlineForm {
+    display: inline-flex;
+    gap: 0.25rem;
+    align-items: center;
+}
